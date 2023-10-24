@@ -36,7 +36,7 @@ describe(Main, ()=>{
         expect(display.value).toBe("17")
     });
 
-    test("should add two values", ()=>{
+    test("should subtract two values", ()=>{
         const {getByText, getByRole} = render(<Main/>);
         const btn8 = getByText("8");
         const btn9 = getByText("9");
