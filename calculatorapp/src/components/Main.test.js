@@ -36,6 +36,21 @@ describe(Main, ()=>{
         expect(display.value).toBe("17")
     });
 
+    test("should subtract two values", ()=>{
+        const {getByText, getByRole} = render(<Main/>);
+        const btn8 = getByText("8");
+        const btn9 = getByText("9");
+        const minusbtn = getByText("-");
+        const resultbtn = getByText("=");
+        const display = getByRole("textbox");
+
+        fireEvent.click(btn8);
+        fireEvent.click(minusbtn);
+        fireEvent.click(btn9);
+        fireEvent.click(resultbtn);
+        expect(display.value).toBe("-1")
+    });
+
     test("should divide two values", ()=>{
         const {getByText, getByRole} = render(<Main/>);
         const btn6 = getByText("6");
@@ -123,6 +138,7 @@ describe(Main, ()=>{
         expect(display.value).toBe('Infinity'); 
     });
     
+
     
     
 
