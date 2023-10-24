@@ -1,0 +1,265 @@
+
+.whole{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.whole1{
+    background-color: #647198;
+}
+
+.whole2{
+    background-color: #fcfcfc;
+}
+
+.whole3{
+    background-color: black;
+}
+
+.calculator{
+    width: 540px;
+    height: 708px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 10px;
+}
+
+.calc{
+    flex: 1;
+    font-size: 29px;
+    font-weight: bold;
+}
+
+.calc1{
+    color: white;
+}
+.calc2{
+    color: #36362C;
+}
+.calc3{
+    color: #FFE53D;
+}
+
+.themesection{
+    position: absolute;
+    right: 0px;
+    flex: 1;
+    display: flex;
+    width: 139px;
+    height: 30px;
+    justify-content: center;
+    top: 10px
+}
+
+.theme{
+    font-size: 12px;
+    font-weight: bold;
+    flex: 1;   
+}
+
+.themec1{
+    color: white;
+}
+.themec2{
+    color: #36362C;
+}
+.themec3{
+    color: #FFE53D;
+}
+
+.themenumbers{
+    display: flex;
+    font-size: 12px;
+    font-weight: bold;
+    flex: 1;
+    justify-content: space-around;
+    position: relative;
+    bottom: 8px;
+}
+
+.theme1, .theme2, .theme3{
+    cursor: pointer;
+    background-color: #647198;
+    border: 1px solid #647198;
+}
+
+.themenum1{
+    color: white;
+    background-color: #647198;
+    border: 1px solid #647198;
+}
+.themenum2{
+    color: #36362C;
+    background-color: #fcfcfc;
+    border: 1px solid #fcfcfc;
+}
+.themenum3{
+    color: #FFE53D;
+    background-color: black;
+    border: 1px solid black;
+}
+
+.currentpage{
+    border: 2px solid #D03F2F;
+    background-color: #D03F2F;
+    width: 28px;
+    border-radius: 14px;
+    font-weight: bold;
+}
+
+.currentpage3{
+    border: 2px solid #00DED0;
+    background-color: #00DED0;
+    width: 28px;
+    border-radius: 14px;
+    font-weight: bold;
+}
+
+.screen input{
+    width: 534px;
+    height: 128px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 56px;
+    font-weight: bold;
+    border-radius: 7px;
+    text-align: right;
+}
+
+.screen1 input{
+    background-color: #181F33;
+    color: white;
+}
+
+.screen2 input{
+    background-color: #EEEEEE;
+    color: #36362C;
+    border-color: #EEEEEE;
+}
+
+.screen3 input{
+    background-color: #1E0936;
+    color: #FFE53D;
+    border-color: #1E0936;
+}
+
+
+.keypad{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    align-content: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.keypad1{
+    background-color: #242D44;
+}
+.keypad2{
+    background-color: #D2CDCD;
+}
+.keypad3{
+    background-color: #1E0936;
+}
+
+.key{
+    margin: 13px;
+    width: 95px;
+    height: 55px;
+    border-radius: 8px;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.key1{
+    border: 1px solid #EAE3DC;
+    background-color: #EAE3DC;
+    color: #434A59;
+}
+.key2{
+    border: 1px solid #E5E4E1;
+    background-color: #E5E4E1;
+    color: #36362C;
+}
+.key3{
+    border: 1px solid #331C4D;
+    background-color: #331C4D;
+    color: #FFE53D;
+}
+
+
+.del1{
+    background-color: #647198;
+    color: white;
+}
+.del2{
+    background-color: #378187;
+    color: white;
+}
+.del3{
+    background-color: #56077C;
+    color: white;
+}
+
+.footerbuttons{
+    display: flex;
+    padding-left: 40px;
+}
+
+.footerbuttons1{
+    background-color: #242D44;
+}
+.footerbuttons2{
+    background-color: #D2CDCD;
+}
+.footerbuttons3{
+    background-color: #1E0936;
+}
+
+.reset, .equalto{
+    width: 218px;
+    height: 60px;
+    margin-top: 4px;
+    margin-right: 25px;
+    margin-bottom: 30px;
+    border-radius: 7px;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.reset1{
+    color: white;
+    background-color: #647198;
+}
+
+.equalto1{
+    color: white;
+    background-color: #D03F2F;
+}
+
+.reset2{
+    color: white;
+    background-color: #378187;
+}
+.equalto2{
+    color: white;
+    background-color: #C85402;
+}
+.reset3{
+    color: white;
+    background-color: #56077C;
+}
+.equalto3{
+    color: 1A2327;
+    background-color: #00DED0;
+}
